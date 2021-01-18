@@ -64,3 +64,30 @@
    64  git log
    65  git branch
    66  history > history.txt
+   67  git add history.txt
+   68  git commit -m "added history
+q
+"
+   69  cat history.txt
+   70  git status
+   71  git log
+   72  git rm added history.txt
+   73  git rm history.txt
+   74  git log
+   75  git rm added history q
+   76  git checkout history
+   77  git commit --amend
+   78  git reset HEAD
+   79  git log
+   80  git commit --amend
+   81  git log
+   82  git status
+   83  git add history.txt
+   84  git status
+   85  git log
+   86  ls
+   87  git status
+   88  git checkout history
+   89  git status
+   90  git restore history.txt
+   91  history > history.txt
